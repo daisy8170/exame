@@ -3,18 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi página con foto</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Mira este pug</h1>
-    
-    <img src="perro.jpeg" 
-         alt="Un can pug moi simpático" 
-         width="600">
+
+    <img src="perro.jpeg" alt="Un can pug moi simpático" width="600">
+
     <p>Outro can</p>
-    <img src="perro2.jpeg" 
-         alt="Un can pug moi simpático" 
-         width="600">
+
+    <img src="perro2.jpeg" alt="Un can pug moi simpático" width="600">
+
+    <hr> 
+    
+    <h2>Tabla de números</h2>
+    <table>
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>25</td>
+            <td>33</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>62</td>
+            <td>74</td>
+            <td>89</td>
+        </tr>
+    </table>
 
 </body>
 </html>
