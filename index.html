@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Mi página con foto</title>
+    
     <style>
+        /* Estilos para o deseño da táboa */
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
+        /* Bordes e aliñación de celas */
         table, th, td {
             border: 1px solid black;
         }
@@ -16,10 +19,12 @@
             padding: 12px;
             text-align: center;
         }
+        /* Estilo para a fila de encabezado */
         th {
             background-color: #f2f2f2;
             font-weight: bold;
         }
+        /* Espazado de imaxes */
         img {
             display: block;
             margin-bottom: 10px;
@@ -40,24 +45,28 @@
     
     <h2>Tabla de números</h2>
     <table>
-        <tr>
-            <th>Columna 1</th>
-            <th>Columna 2</th>
-            <th>Columna 3</th>
-            <th>Columna 4</th>
-        </tr>
-        <tr>
-            <td>10</td>
-            <td>25</td>
-            <td>33</td>
-            <td>48</td>
-        </tr>
-        <tr>
-            <td>51</td>
-            <td>62</td>
-            <td>74</td>
-            <td>89</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>25</td>
+                <td>33</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>62</td>
+                <td>74</td>
+                <td>89</td>
+            </tr>
+        </tbody>
     </table>
 
 </body>
